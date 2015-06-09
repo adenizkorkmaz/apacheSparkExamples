@@ -1,5 +1,6 @@
 *.class
 *.log
+.idea/*
 
 # sbt specific
 .cache
@@ -15,3 +16,25 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+.idea/scopes/
+.idea/dictionaries/
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/modules/
+.idea/.name
+.idea/*.xml
+!.idea/vcs.xml
+!.idea/uiDesigner.xml
+/classes
+/dist
+/out
+/SDK/*SDK
+/target
+/*.bat
+out
+build
+.DS_Store
+*~
+
+testdata/debugger
